@@ -1,0 +1,63 @@
+.table-container,
+.alt-table-container
+{
+  width: 50rem;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.table-container ul {
+  display: inline-block;
+  list-style-type: none;
+  background: white;
+}
+.table-container ul.fixed {
+  position: absolute;
+  float: left;
+  left: 0;
+}
+.table-container li {
+  display: block;
+  padding-bottom: 10px;
+}
+.table-container li.header {
+  font-weight: bold;
+}
+.table-spacer-col {
+  position: relative;
+  display: block;
+  float: left;
+  height: 235px;
+}
+
+.alt-table-container {
+  margin-top: 3rem;
+  margin-left: 1rem;
+}
+
+.alt-table-container ul {
+  padding-left: 0;
+  list-style-type: none;
+  margin: 0;
+}
+
+.alt-table-container li {
+  display: inline-block;
+  min-width: 70px;
+  padding: 5px;
+  border: 1px solid;
+  vertical-align: top;
+  overflow: hidden;
+  margin-right: -4px;
+  resize: horizontal;
+}
+
+.alt-table-container li:last-of-type {
+  margin-right: 1px;
+}
+
+.alt-table-container li.fixed {
+  background: white;
+  position: absolute;
+  float: left;
+}
